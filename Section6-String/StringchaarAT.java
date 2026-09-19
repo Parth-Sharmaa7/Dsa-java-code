@@ -1,3 +1,4 @@
+package datatype;
 public class StringchaarAT {
     public static void StringchaarAT(String str){
         for(int i=0; i<str.length(); i++){

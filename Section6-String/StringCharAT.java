@@ -1,0 +1,19 @@
+public class StringCharAT {
+
+    public static void stringCharAt(String str) {
+        for(int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i) + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        String firstname = "Parth";
+        String lastname = "Sharma";
+        String fullName = firstname + " " + lastname;
+
+        System.out.println(fullName.charAt(3));
+
+
+    }
+}
