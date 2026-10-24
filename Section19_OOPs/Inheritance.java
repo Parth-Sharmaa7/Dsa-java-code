@@ -1,3 +1,4 @@
+package Section19_OOPs;
 public class Inheritance {
     public static void main(String args[]){
         Fish Shark = new Fish();
@@ -8,7 +9,7 @@ public class Inheritance {
 class Animal{
     String colour;
 
-    void eat(){
+    public void eat(){
         System.out.println("eats");
     }
 
