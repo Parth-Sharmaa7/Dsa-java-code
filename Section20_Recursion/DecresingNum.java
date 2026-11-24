@@ -10,7 +10,7 @@ public class DecresingNum {
     }
     
     public static void main(String args[]) {
-        int n = 69;
+        int n = 67;
         printDec(n);
 
     }
